@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "General Sans Medium" ;    
+}
+    
+#main{
+    width: 100%;
+}
+
+#hero{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 40px; 
+    color: white    ;   
+   
+}
+
+a{
+    text-decoration: none;
+}
+#nav a{
+    color: white;  
+    font-size: 18px;
+}
+
+.heading{
+    margin-top: 90px;
+}
+
+.heading h1{
+    font-size: 9vw;
+    line-height: 1;
+    font-weight: 900;
+    opacity: 0.6;
+    margin-left: 30px;
+}
+.heading #second-h1{
+    margin-left: 150px;
+    display: inline;
+}
+
+.block-text{
+    width: fit-content;
+}
+
+.block-text h5{
+    text-align: right;
+    font-size:1vw;    
+}
+
+
+.little-heading{
+    margin-top: 120px;
+    padding-right: 50px;
+}
+
+
+.little-heading{
+    text-align: right;
+    margin-top: .5vw;
+    text-transform: uppercase;
+    font-size: 1vw;
+}
+
+#hero-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vw;
+    position: absolute;
+    bottom: 2%;
+    width: 100%;
+}
+
+.icon-set{
+     display: flex;
+}
+
+#hero-footer a{
+    color: white;
+    text-decoration: none;
+
+}
+
+#hero-footer .circle{
+      display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 25px;
+    height: 25px;
+    background-color: green;
+    border-radius: 50%;
+
+}
+
+
+#second{
+    padding-right:10vw;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    padding-top:200px;
+    color: white;
+}
+
+.elem{
+    width: 100%;
+    border-top: 1px solid #888;
+    padding: 3.5vw 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 0;
+    position: relative;
+}
+
+
+.elem h1{
+    text-transform: uppercase;
+    opacity: 0.7;
+    font-size: 4vw;
+    
+}
+
+.elem-last{
+    border-bottom: 1px solid #888;
+}
+
+
+.elem img{
+    height: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+#about{
+    
+}
