@@ -95,14 +95,14 @@ a{
 }
 
 #hero-footer .circle{
-      display: flex;
+    display: flex;
     justify-content: center;
     align-items: center ;
     width: 25px;
     height: 25px;
-    background-color: green;
+    background-color: #888;
     border-radius: 50%;
-
+    
 }
 
 
@@ -147,5 +147,58 @@ a{
 }
 
 #about{
-    
+    padding: 10vw 10vw;
+    width: 100%;
+    background-color: black ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40vw;
+    gap: 50px;
+}
+
+#about img{
+    width:200px;
+}
+#textabout{
+    width:25rem;    
+  color: white;
+}
+
+#textabout h5{
+    text-transform: uppercase;
+    opacity: .6;
+    margin-bottom: 10px ;
+}
+#textabout p{
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+#textabout a{
+    color: white;
+    border: 1px solid #888;
+    padding: 12px 22px ;
+    border-radius:100px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#subscribe {
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding: 20px 30px;
+    padding-bottom:10vw;
+}
+
+
+#subscribe h5{
+    text-transform: uppercase;
+    opacity:0.8;
+}
+
+
+#subscribe h3{
+text-transform: uppercase;
+    font-size: 14px ;
 }
